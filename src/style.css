@@ -1,0 +1,26 @@
+/* App.css */
+
+.default-page {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .heading {
+    font-size: 3rem; /* Increase font size */
+    margin-bottom: 20px;
+    z-index: 1;
+  }
+  
+  .login-registration {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; /* Add space between the buttons */
+    z-index: 2;
+  }
+  
